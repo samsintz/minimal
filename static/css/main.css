@@ -29,12 +29,12 @@ main {
 }
 
 .intro > h1 {
-    color: #212121;
+    color: var(--fontColor);
     font-size: 12vh;
 }
 
 .intro > h2 {
-    color: #757575;
+    color: var(--fontAccentColor);
     font-size: 3vmin;
 }
 
@@ -47,7 +47,7 @@ main {
 /*apply accent colour to links*/
 
 a:link, a:visited {
-    color: var(--accent);
+    color: var(--fontAccentColor);
 }
 
 a.icon:hover {
